@@ -4,6 +4,11 @@ LidarTile
 Little program to convert LIDAR scans into 3D-printable .STL tiles. Accepts
 ESRI ASCII grid formats only, right now.
 
+HOW TO RUN:
+1. Download and install Python 2.7.
+2. Add an environmental variable to you PC
+
+
 Run it like this::
 
     python -m lidartile.cli -d 4 -f 0.5 -b 5 -c 2 -z 1.5 -s 3 -m 2 ~/Downloads/LIDAR-DSM-1M-TQ37/tq3979_DSM_1m.asc
